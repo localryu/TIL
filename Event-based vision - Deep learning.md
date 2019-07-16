@@ -23,16 +23,16 @@
   
 ### describes
   1. event to frame conversion
-    : we accumulate the events ek = (xk, yk, tk, pk) over a given time interval T in a pixel-wise manner, obtaining 2D histograms of events. Since event cameras naturally respond to moving edges, these histograms of events are maps encoding the relative motion between the event camera and the scene. Additionally, due to the sensing principle of event cameras, they are free from redundancy.
+      - we accumulate the events ek = (xk, yk, tk, pk) over a given time interval T in a pixel-wise manner, obtaining 2D histograms of events. Since event cameras naturally respond to moving edges, these histograms of events are maps encoding the relative motion between the event camera and the scene. Additionally, due to the sensing principle of event cameras, they are free from redundancy.
     
   2. learning approach
-    :  - preprocessing
-       - network architecture - deploy a series of ResNet architectures
+      - preprocessing
+      - network architecture - deploy a series of ResNet architectures
        
   3. dataset
-    : DAVIS Driving Dataset 2017
+      - DAVIS Driving Dataset 2017
     
   4. experiments and results
-   : - sensitivity analsis with respect to the event integration time -> smallest error when imtegration time is 50ms.
-     - different illumination scenarios -> better result in event camera than standard camera.
+      - sensitivity analsis with respect to the event integration time -> smallest error when imtegration time is 50ms.
+      - different illumination scenarios -> better result in event camera than standard camera.
      
