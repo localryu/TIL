@@ -11,9 +11,9 @@
   - event cameras do not suffer from motion blur and have a very high dynamic range, which enables them ro provide reliable visual information during high-speed motions or in scenes charactorized by high dynamic range.
  
  ### contributions
-   a. state estimation pipeline that fuses events, standard frames, and imu. standard frames as an additional sensing modality, improvements to make it usable for real-time applications.
-   b. improves the accuracy of state estimation while keeping the computational load tractable.
-   c. can be apn onboard and autonomous quadrotor. system is able to fly reliably in challenging situations, such as low-light scenes or fast motions.
+  - state estimation pipeline that fuses events, standard frames, and imu. standard frames as an additional sensing modality, improvements to make it usable for real-time applications.
+  - improves the accuracy of state estimation while keeping the computational load tractable.
+  - can be apn onboard and autonomous quadrotor. system is able to fly reliably in challenging situations, such as low-light scenes or fast motions.
    
  ### overview
   1. coordinate frame notation
