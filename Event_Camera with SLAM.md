@@ -1,4 +1,4 @@
-# Event_camera w/ slam
+# Combining Events, Images, and IMU for Robust Visual SLAM in HDR and High-Speed Scenarios
 
 ## 1. sources 
   - http://rpg.ifi.uzh.ch/docs/RAL18_VidalRebecq.pdf
