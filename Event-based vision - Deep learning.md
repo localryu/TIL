@@ -16,9 +16,11 @@
   - Show that it is possible to leverage reansfer learning from pre-trained convolutional networks on classification tasks, even if the networks were trained on frames collected by traditional cameras.
   - Prove that this methodology is outperforming state-of-the-art systems on a publicly available dataset.
   
-### relatewited work
+### related work
   - first attempt to learn a visuomotor policy (with ALVINN) - shallow network was used to predict actions directly from images. -> it onlt succeeded in simple scenarios.
   - NVIDIA used a CNN to learn a driving policy from video frames.->able to drive a car in basic scenarios.
   - leverage large-scale driving video datasets and to do transfer learning to generate more robust policies.->showed good performance but uas limited to only a set of discreate actions and was susceptible to failures in undemonstrated regions of the policy space.
   
 ### describes
+  1. event to frame conversion
+    : 
