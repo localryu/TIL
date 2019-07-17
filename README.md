@@ -1,2 +1,2 @@
 # TIL
-This repo for what i learned
+This repo for what i learned and read
