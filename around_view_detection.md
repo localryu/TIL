@@ -18,7 +18,7 @@
   ### HW 
   
     sensors
-      - Using 6 eo sensors (the product)
+      - Using 6 EO sensors
       
     PC
       - NVIDIA Xavier (can subtitude to X2)
