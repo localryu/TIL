@@ -36,8 +36,8 @@
            
             <arg name="port" default="/dev/microstrain" />  -->  <arg name="port" default="/dev/ttyACM0" />
             
-   3) before launch the program, change the autority root from user\
-      (microstrain_mips programs should execute on root autority.)
+   3) Before launch the program, the user must change their permissions to the root.\
+      (The microstrain_mips program must be run under root privileges.)
          
             bash
          or
