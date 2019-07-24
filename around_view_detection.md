@@ -3,7 +3,7 @@
 ## 1. Motivation
 
   - UAM needs to detect and avoidance objects like as drones or birds.
-  - Detects objects using multiple vision sensors and locates them in their vehicles. Further, since the position of the obstacle is known, collision avoidance can be performed. 
+  - Detects objects using multiple vision sensors and find the position from the vehicles. Further, since know the obstacles position, collision avoidance can be performed. 
 
  
 ## 2. Product
@@ -24,13 +24,12 @@
       - NVIDIA Xavier (can subtitude to X2)
       - or other pc (Nuc etc.)
       
-  ### SW : Using Deep Learning to detect birds, UAMs or other objects.
+  ### SW : Using Deep Learning to detect objects.
   
     environment : Linux(ubuntu 18.04) + ROS (melodic)
-        - For ease of development
         
     DL Net
-        - Tensorflow SSD mobileNet -> video :  fps / real-time :  fps
-        - Tiny yolo -> video :  fps / real-time :  fps
-        - yolo V3 -> video : 5-6 fps / real-time : fps
-        - RCNN -> video :  fps / real-time :  fps
+        - Tensorflow SSD mobileNet -> 8-10fps
+        - Tiny yolo -> 45 fps
+        - yolo V3 -> 5-6 fps
+        - RCNN -> fps
