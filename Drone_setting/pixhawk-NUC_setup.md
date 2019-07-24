@@ -1,20 +1,20 @@
 # Pixhawk - NUC setting
 
-## environment
+## Environment
     NUC : Ubuntu 18.0, ROS melodic
     Pixhawk : 1.8.2v
     HW : FTDI serial-to-USB Cable
   
-## install Mavros in NUC
+## Install Mavros in NUC
     sudo apt-get update
     sudo apt-get install ros-melodic-mavros ros-melodic-mavros-extras
     cd ~/catkin_ws
     catkin_make
     source devel/setup.bash
     
-## connect serial-to-USB Cable
-  ![pinmap](./img/pinmap.png)
-    ** MCU_TX => board RX,MCU_RX => board TX 
+## Connect serial-to-USB Cable
+   ** MCU_TX => board RX,MCU_RX => board TX 
+ ![pinmap](./img/pinmap.png)
   
 ## Pixhawk configuration
    lauch Qgroundcontrol
@@ -33,6 +33,10 @@
     ## rostopic check
     rostopic /mavros/state -c
     rostopic /mavros/imu/data -c
+    
+  /mavros/state topic
+  
+  ![state](./img/state.png)
     
     
 
