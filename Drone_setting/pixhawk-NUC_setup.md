@@ -1,7 +1,7 @@
 # Pixhawk - NUC setting
 
 ## Environment
-    NUC : Ubuntu 18.0, ROS melodic
+    NUC : Ubuntu 18.04, ROS melodic
     Pixhawk : 1.8.2v
     HW : FTDI serial-to-USB Cable
   
