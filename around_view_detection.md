@@ -21,7 +21,7 @@
       - Using 6 EO sensors
       
     PC
-      - NVIDIA Xavier (can subtitude to X2)
+      - NVIDIA Xavier (can be replaced by TX2)
       - or other pc (Nuc etc.)
       
   ### SW : Using Deep Learning to detect objects.
