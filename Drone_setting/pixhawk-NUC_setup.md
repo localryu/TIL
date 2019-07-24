@@ -13,6 +13,6 @@
     source devel/setup.bash
     
 ## connect serial-to-USB Cable
-  
+  ![pinmap](./img/pinmap,png)
     
   
