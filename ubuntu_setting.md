@@ -14,5 +14,5 @@
 
     cd ~
     vim tmux.conf
-    set -g mouse on
+    setw -g mouse on
 
