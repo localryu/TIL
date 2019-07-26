@@ -16,7 +16,7 @@
     samba password : create password
     confirm samba password : password
   
-  + ->  create samba share
+  add ->  create samba share
     
     Directory : /
     share name : same as unix username
