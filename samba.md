@@ -2,6 +2,7 @@
   build samba server in ubuntu
 
 ## install samba
+    sudo apt-get install openssh
     sudo apt-get install system-config-samba
     sudo touch /etc/libuser.conf
     
