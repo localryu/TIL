@@ -16,3 +16,19 @@
     vim tmux.conf
     setw -g mouse on
 
+## vim setting
+    
+    cd ~/.vimrc
+    
+    // add the following
+    set autoindent
+    set cindent
+    set nu
+    set ts=4
+    set shiftwidth=4
+    set showmatch
+    set ruler
+    
+    if has("syntax")
+        syntax on
+    endif
