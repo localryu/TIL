@@ -8,7 +8,7 @@
  
 ## 2. Product
 
-  1. e-con system : https://www.e-consystems.com/blog/camera/build-your-dream-ai-applications-with-e-cam130_cuxvr-on-the-nvidia-jetson-agx-xavier/
+  1. e-con system : https://www.e-consystems.com/nvidia-cameras/jetson-agx-xavier-cameras/sony-starvis-imx290-synchronized-multi-camera.asp#kit-contents
   2. leopard : https://leopardimaging.com/product/li-xavier-kit-imx577-x/
   
 
@@ -18,7 +18,7 @@
   ### HW 
   
     sensors
-      - Using 6 EO sensors
+      - Using 6 or 4 EO sensors
       
     PC
       - NVIDIA Xavier (can be replaced by TX2)
