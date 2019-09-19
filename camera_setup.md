@@ -80,5 +80,5 @@
     
  ## gstreamer launch
  
-   sudo apt-get install cmake build-essential pkg-config libx11-dev libgtk-3-dev libexpat1-dev libjpeg-dev libgstreamer1.0-dev v4l-utils libv4l-dev
-   gst-launch-1.0 nvarguscamerasrc sensor-id=0 ! "video/x-raw(memory:NVMM), width=(int)1920, height=(int)1080, format=(string)NV12" ! nvvidconv ! nvegltransform ! nveglglessink -e
+    sudo apt-get install cmake build-essential pkg-config libx11-dev libgtk-3-dev libexpat1-dev libjpeg-dev libgstreamer1.0-dev v4l-utils libv4l-dev
+    gst-launch-1.0 nvarguscamerasrc sensor-id=0 ! "video/x-raw(memory:NVMM), width=(int)1920, height=(int)1080, format=(string)NV12" ! nvvidconv ! nvegltransform ! nveglglessink -e
