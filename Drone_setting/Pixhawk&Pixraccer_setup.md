@@ -1,8 +1,8 @@
 # Pixhawk & Pixraccer setup
 
 ## Refernece site 
-  https://dev.px4.io/v1.9.0/en/setup/getting_started.html
-  https://docs.qgroundcontrol.com/en/
+ + https://dev.px4.io/v1.9.0/en/setup/getting_started.html
+ + https://docs.qgroundcontrol.com/en/
 
 ## QGroundControl
  ### Download and install QGroundControl (in Ubuntu)
