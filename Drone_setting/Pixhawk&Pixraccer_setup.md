@@ -1,6 +1,6 @@
 # Pixhawk & Pixraccer setup
 
-## Refernece site 
+## Refernece sites
  + https://dev.px4.io/v1.9.0/en/setup/getting_started.html
  + https://docs.qgroundcontrol.com/en/
 
