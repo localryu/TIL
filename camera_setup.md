@@ -46,7 +46,8 @@
  #### Upgrading Kernel Supplements(xavier)
     mkdir top_dir/kernel_out -p
     
-    export TOP_DIR=/home/ryu/top_dir \
+    export TOP_DIR=/home/ryu/top_dir
+    export LDK_ROOTFS_DIR=/
     export RELEASE_PACK_DIR=$TOP_DIR/e-CAM20_CUXVR_JETSON_XAVIER_L4T32.1_09-JULY-2019_R01
     cp e-CAM20_CUXVR_JETSON_XAVIER_L4T32.1_09-JULY-2019_R01.tar.gz $TOP_DIR/
     cd $TOP_DIR
@@ -60,7 +61,7 @@
     sudo chmod +x $LDK_ROOTFS_DIR/home/max-isp-vi-clks.sh
     
  #### Upgrading kernel image and dtb file(host pc)
-    sudo cp $RELEASE_PACK_DIR/Kernel/Binaries/tegra194-p2888-0001-p2822-0000-camera-4lane-eimx290.dtb
+    sudo cp $RELEASE_PACK_DIR/Kernel/Binaries/tegra194-p2888-0001-p2822-0000-camera-4lane-eimx290.dtb $L4T_DIR/kernel/dtb/tegra194-p2888-0001-p2822-0000.dtb -f
     sudo cp $RELEASE_PACK_DIR/Kernel/Binaries/Image $L4T_DIR/kernel/Image -f
     cd $L4T_DIR
     ls ./bootloader/system.img
