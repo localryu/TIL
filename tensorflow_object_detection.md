@@ -69,12 +69,12 @@
     python generate_tfrecord.py --csv_input=images\train_labels.csv --image_dir=images\train --output_path=train.record
     python generate_tfrecord.py --csv_input=images\test_labels.csv --image_dir=images\test --output_path=test.record
     
-    ### image folder
+   ### image folder
         images/test/,train/,train.csv,test.csv
     
  ## Config
  
-  ###Create labelmap
+  ### Create labelmap
     item {
       id: 1
       name: 'nine'
@@ -105,7 +105,7 @@
       name: 'ace'
     }
     
-    ### training folder
+   ### training folder
         training/labelmap.pbtxt,(model).config
         
  ## Run the training
