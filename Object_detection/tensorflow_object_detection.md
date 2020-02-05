@@ -1,12 +1,12 @@
 ## Install CUDA, cuDNN, tensorflow
+  ### install nvidia-driver
+    sudo apt-get install nvidia-driver-430 (or 418)
 
-  ### install CUDA (version 10.2)
-    Download CUDA : https://developer.nvidia.com/cuda-downloads
+  ### install CUDA (version 10.0)
+    Download CUDA : https://developer.nvidia.com/compute/cuda/10.0/Prod/local_installers/cuda_10.0.130_410.48_linux
       cd ~/Downloads
-      sudo dpkg -i cuda-repo-ubuntu1804-10-0-local-10.0.130-410.48_1.0-1_amd64.deb
-      sudo apt-key add /var/cuda-repo-<version>/7fa2af80.pub
-      sudo apt-get update
-      sudo apt-get install cuda
+      sudo sh cuda_10.0.130_410.48_linux.run
+      - Fallow the command-line prompts except install nvidia-driver(make sure press 'n')
       
       gedit ~/.bashrc
         Add this
@@ -15,8 +15,9 @@
       
   ### install cuDNN (version 7.6)
     - Download cuDNN : https://developer.nvidia.com/cudnn
+      https://developer.nvidia.com/compute/machine-learning/cudnn/secure/v7.5.1/prod/10.0_20190418/cudnn-10.0-linux-x64-v7.5.1.10.tgz
       cd ~/Downloads
-      sudo tar -xzvf cudnn-7.6.0-linux-x64-v7.0.tgz 
+      sudo tar -xzvf cudnn-7.5.1*.tgz 
       cd cuda
       sudo cp include/cudnn.h /usr/local/cuda/include
       sudo cp lib64/libcudnn* /usr/local/cuda/lib64
