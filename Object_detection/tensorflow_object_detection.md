@@ -124,6 +124,6 @@
     
 ## Export the graph
 
-    python export_inference_graph.py --input_type image_tensor --pipeline_config_path training/ssd_mobilenet_v1_coco.config --trained_checkpoint_prefix training/model.ckpt-35487 --output_directory inference_graph_mbzirc
+    python export_inference_graph.py --input_type image_tensor --pipeline_config_path training/ssd_mobilenet_v1_coco.config --trained_checkpoint_prefix training/model.ckpt-19994 --output_directory inference_graph_hmc
 
 
