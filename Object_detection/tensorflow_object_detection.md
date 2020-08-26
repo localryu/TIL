@@ -20,10 +20,10 @@
     export PYTHONPATH=$PYTHONPATH:~/tensorflow/models/research/:~/tensorflow/models/research/slim:~/tensorflow/models/research/object_detection/
     
 ## Making Dataset
-  labeling train image using tool (ex. labelimg, openlabel)
-    python xml_to_csv.py
-  In the generate_tfrecord.py file, modify the label map
-    For example,
+  labeling train image using tool (ex. labelimg, openlabel)  
+    python xml_to_csv.py  
+  In the generate_tfrecord.py file, modify the label map  
+    For example,  
     
       def class_text_to_int(row_label):
         if row_label == 'nine':
