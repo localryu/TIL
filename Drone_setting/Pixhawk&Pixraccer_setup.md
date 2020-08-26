@@ -38,4 +38,4 @@
  2. connect ESC data pin to the recevier no.3 channel.
  3. pull up the throttle leaver, then pull down the leaver and wait seconds to end calibrate.
  
-  ![Futaba_reciver](./img/futaba_reciver.png)
+  ![Futaba_reciver](./img/futaba_reciver.jpg)
