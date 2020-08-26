@@ -27,3 +27,15 @@
   5. Set Flight Modes
   6. Set power
   7. Parameters
+
+### ESC calibration with Futaba controller
+
+ If the drone is not operate well after all setting process, the reason might be from wrong calibrate ESC.
+ This method is for each ESC calibrate one by one.
+ Using Futaba controller, ESC can calibrated.
+ 
+ 1. connect recevier - controller
+ 2. connect ESC data pin to the recevier no.3 channel.
+ 3. pull up the throttle leaver, then pull down the leaver and wait seconds to end calibrate.
+ 
+  ![Futaba_reciver](./img/futaba_reciver.png)
