@@ -9,7 +9,7 @@
       - Fallow the command-line prompts except install nvidia-driver(make sure press 'n')
       
       gedit ~/.bashrc
-        Add this
+      - Add this
           export PATH=/usr/local/cuda-10.0/bin${PATH:+:${PATH}}
           export LD_LIBRARY_PATH=/usr/local/cuda-10.0/lib64${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}
       
