@@ -1,4 +1,24 @@
-# install Airsim and ros package
+# Build AirSim on Linux
+ (reference : https://microsoft.github.io/AirSim/build_linux/)
+ 
+#### Environment
+    - Ubuntu 18.04 LTS
+
+### Build Unreal Engine
+    git clone -b 4.24 https://github.com/EpicGames/UnrealEngine.git
+    cd UnrealEngine
+    ./Setup.sh
+    ./GenerateProjectFiles.sh
+    make
+    
+### Build AirSim
+    git clone https://github.com/Microsoft/AirSim.git
+    cd AirSim
+    ./setup.sh
+    ./build.sh
+    
+## ROS set up
+### install Airsim and ros package
     https://github.com/microsoft/AirSim/blob/master/docs/airsim_ros_pkgs.md
 
 ### - Update gcc version 
