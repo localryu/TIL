@@ -29,5 +29,5 @@
   After build, add the below command in the ~/.bashrc file.  
   ~~~
   vim ~/.bashrc
-  source install/setup.bash --extend
+  source ~/cvbridge_build_ws/install/setup.bash --extend
   ~~~
