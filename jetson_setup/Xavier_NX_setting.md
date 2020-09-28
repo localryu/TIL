@@ -37,7 +37,11 @@
     cd torchvision
     sudo python setup.py install
     
-    
+### ERROR
+
+#### ImportError: No module named builtin
+    pip install future
+ 
 ## OpenCV 3.4 build
 
 #### 1. install dependencies
