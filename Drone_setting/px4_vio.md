@@ -2,10 +2,11 @@
 
 
 #### install realsense2.0 sdk
-    (https://github.com/IntelRealSense/librealsense/blob/master/doc/distribution_linux.md#installing-the-packages)
+   <https://github.com/IntelRealSense/librealsense/blob/master/doc/distribution_linux.md#installing-the-packages/>
 
 #### install realsense-ros
-    (https://github.com/IntelRealSense/realsense-ros.git)
+   <https://github.com/IntelRealSense/realsense-ros.git/>
+   
     sudo apt install ros-melodic-realsense-camera
     sudo apt install ros-melodic-realsense-description  
     
