@@ -1,4 +1,4 @@
-# Tensorflow2 object detection installion & tutorial
+# Tensorflow2 object detection installation & tutorial
 
 #### System environment
     Ubuntu 18.04
