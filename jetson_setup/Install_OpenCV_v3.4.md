@@ -16,7 +16,11 @@
     
 #### 2. download source
     wget -O opencv.zip https://github.com/Itseez/opencv/archive/3.4.5.zip
+    wget -O opencv_contrib.zip https://github.com/opencv/opencv_contrib/archive/3.4.0.zip
+
     unzip opencv.zip
+    unzip opencv_contrib.zip
+
 #### 3. build opencv
     cd opencv
     mkdir build && cd build
