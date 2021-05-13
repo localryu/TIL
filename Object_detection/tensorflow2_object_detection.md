@@ -3,7 +3,7 @@
 #### System environment
     Ubuntu 18.04
     CUDA 10.1
-    CuDNN 7.5.2
+    CuDNN 7.6.5
     python3.6
 
 ## Required package for Tensorflow2 installation
