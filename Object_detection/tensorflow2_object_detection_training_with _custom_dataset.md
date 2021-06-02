@@ -103,4 +103,5 @@
     or
     - https://github.com/localryu/tf2_object_detection_ros.git
 
-    
+  ### FUTURE WORK
+  https://gilberttanner.com/blog/run-tensorflow-on-the-jetson-nano
