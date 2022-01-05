@@ -2,7 +2,7 @@
 
  ref : https://injae-kim.github.io/robot_operating_system/2020/04/25/ros-automatically-execute-program-on-booting.html
 
-## 1. 
+## 1. Make service file
 
 ### a. cd /etx/systemd/system/
 ### b. touch ros_init.service
@@ -36,7 +36,7 @@ ExecStart=/home/sheco/injae.sh	# 부팅 시 실행하고 싶은 스크립트의 
 WantedBy=multi-user.target
 ~~~
 
-## 2. make shell script file (/home/ryu/start.sh)
+## 2. Make shell script file (/home/ryu/start.sh)
 ~~~
 #! /bin/bash
 
@@ -54,7 +54,7 @@ sleep 3
 roslaunch vision_node vision_node.launch
 ~~~
 
-## 3. update service file and restart service
+## 3. Update service file and restart service
 ~~~
 systemctl daemon-reload
 systemctl enable ros_init.service	# 부팅시 이 서비스를 자동시작 함
